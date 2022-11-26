@@ -1,3 +1,6 @@
+/*
+Top bar rotates down to first half of the X
+*/
 .hamburger:hover > div:nth-child(1){
   background-color: ghostwhite;
   animation-name: top;
@@ -7,6 +10,9 @@
   transition-duration: 1s;
 }
 
+/*
+Middle bar fades out
+*/
 .hamburger:hover > div:nth-child(2){
   animation-name: middle;
   animation-duration: .1s;
@@ -15,6 +21,9 @@
   opacity: 0;
 }
 
+/*
+Bottom bar rotates up to second half of the X
+*/
 .hamburger:hover > div:nth-child(3){
   background-color: ghostwhite;
   animation-name: bottom;

@@ -1,3 +1,6 @@
+/*
+Skews all main
+*/
 main {
 transform: skewY(-10deg);
 
